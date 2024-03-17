@@ -11,10 +11,6 @@
 
 </div> <!-- container -->
 
-
-
-
-
 </section>
 
 <section class="container-fluid articlesbg">
