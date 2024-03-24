@@ -34,30 +34,27 @@
 </title>
 <meta name="description" content="<?php bloginfo('description'); ?>">
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
-
 </head>
 <body>
+
+
+
 <header class="container-fluid smallpage-bg">
-    <div class="container">
+    
 
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
-        <a class="navbar-brand" href="#"><span class = "josh">JOSH</span> <span class ="orange">WHITKIN</span> </a>
+        <a class="navbar-brand" href="<http://170.187.231.66/~mesh2/"><span class = "josh">JOSH</span> <span class ="orange">WHITKIN</span> </a>
       
-                <!-- Toggler/collapsibe Button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
         <span class="navbar-toggler-icon"></span>
     </button>
       
-        <?php 
-
-
-
-?>
        
     </nav>
-    <div class = "smallpage-tag">
-       <h1 class = "smallpage-title">Projects</h1>
+    <div class="smallpage-tag">
+       <h1 class="smallpage-title">Projects</h1>
     
     </div> <!-- container -->
     <?php wp_head(); ?> 
