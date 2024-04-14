@@ -39,7 +39,7 @@
 
 
 
-<header class="container-fluid" style="background-size:cover; height:40vh; background-image: url(<?php the_field('projectheaderbackgroundimage') ?>);">
+<header class="container-fluid small_herobg">
     
 
     <nav class="navbar navbar-expand-md navbar-dark">
@@ -53,8 +53,8 @@
       
        
     </nav>
-    <div class="smallpage-tag">
-    <h1 class="smallpage-title"><?php the_field('projectsheadertitle'); ?> </h1>
+    <div class="tag">
+       
     
     </div> <!-- container -->
     <?php wp_head(); ?> 
