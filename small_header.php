@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="<?php bloginfo('charset'); ?>"> 
+ <meta charset="<?php bloginfo('charset'); ?>">
+ <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/Images/favicon.ico"> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="Description" content="Enter your description here">
